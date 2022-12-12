@@ -1,0 +1,56 @@
+@import "libs/bootstrap-reboot.min.scss";
+@import "libs/fonts";
+
+@import "base/variables";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1140px) {
+  .container {
+    width: auto;
+  }
+}
+
+@import "blocks/header/header";
+@import "blocks/buttons/buttons";
+@import "blocks/promo/promo";
+@import "blocks/subscribe/subscribe";
+@import "blocks/title/title";
+@import "blocks/reviews/reviews";
+@import "blocks/video/video";
+@import "blocks/clients/clients";
+@import "blocks/footer/footer";
+@import "blocks/sponsors/sponsors";
+@import "blocks/exhibitors/exhibitors";
+@import "blocks/pages-content/pages-content";
+@import "blocks/media/media";
+@import "blocks/contacts/contacts";
+@import "blocks/registration/registration";
+@import "blocks/popup/popup";
+@import "blocks/detail/detail";
+@import "blocks/events/events";
+@import "blocks/pageup/pageup";
+
+@import "blocks/header/header-media";
+@import "blocks/promo/promo-media";
+@import "blocks/subscribe/subscribe-media";
+@import "blocks/reviews/reviews-media";
+@import "blocks/clients/clients-media";
+@import "blocks/pages-content/pages-content-media";
+@import "blocks/media/media-media";
+@import "blocks/contacts/contacts-media";
+@import "blocks/registration/registration-media";
+@import "blocks/detail/detail-media";
+@import "blocks/events/events-media";
+@import "blocks/footer/footer-media";
+@import "blocks/popup/popup-media";

@@ -1,0 +1,79 @@
+.reviews {
+  position: relative;
+  min-height: 415px;
+  background-color: #f8f3e9;
+  &__btn {
+    &-prev {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 105px;
+      border: none;
+      background-color: #f8f3e9;
+    }
+    &-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 105px;
+      border: none;
+      background-color: #f8f3e9;
+    }
+  }
+  &__title {
+    padding: 50px 0 60px 0;
+  }
+  &__slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    max-width: 550px;
+    display: flex;
+  }
+  &__content {
+    background: url("../images/bg/reviews_bg.png") center (center/cover)
+      no-repeat;
+    margin-left: 10px;
+
+    min-height: 250px;
+    padding: 30px 0 30px 50px;
+    &-title {
+      font-size: 15px;
+      font-weight: 700;
+    }
+    &-subtitle {
+      margin: 12px 0;
+      width: 115px;
+      height: 28px;
+      background-color: #bbbbbd;
+      color: #fff;
+      font-size: 9px;
+      line-height: 28px;
+      font-weight: 300;
+      text-align: center;
+    }
+    &-descr {
+      text-align: left;
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+  &__dots {
+    margin-top: 20px;
+    text-align: center;
+  }
+  &__dot {
+    height: 20px;
+    width: 20px;
+    border: 1px solid $main_color1;
+
+    border-radius: 50%;
+    display: none;
+  }
+
+  .active {
+    background-color: $main_color1;
+  }
+}

@@ -1,0 +1,138 @@
+.header {
+  position: relative;
+  &_container {
+    height: 100%;
+  }
+
+  &__navigation {
+    min-height: 60px;
+    background-color: #323232;
+  }
+  &__navbar {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__descr {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-items {
+      min-width: 560px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-link {
+      display: inline-block;
+      margin-left: 13px;
+      text-decoration: none;
+      color: #4d4d4d;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 15px;
+      &:hover {
+        text-decoration: none;
+        color: #4d4d4d;
+      }
+    }
+  }
+}
+
+.menu {
+  min-width: 350px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    height: 60px;
+    width: 105px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #212121;
+    }
+
+    &-content {
+      display: none;
+      position: absolute;
+      top: 49px;
+
+      z-index: 1;
+      min-width: 295px;
+      border: 1px solid #474747;
+      background: #ffffff;
+      padding: 0 10px;
+    }
+    &-link {
+      text-decoration: none;
+      display: block;
+      padding: 18px 150px 18px 15px;
+      color: #323232;
+
+      border-bottom: 1px solid #474747;
+      &:last-child {
+        border-bottom: none;
+      }
+      &:hover {
+        background: #d6d6d6;
+        text-decoration: none;
+        color: #323232;
+      }
+    }
+  }
+}
+
+#sponsors,
+#exhibitors,
+#speakers {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 50;
+    width: 2px;
+    height: 25px;
+    background-color: #474747;
+  }
+}
+
+.sponsors-active {
+  display: block;
+  left: 0;
+}
+
+.exhibitors-active {
+  display: block;
+  left: 86px;
+}
+
+.speakers-active {
+  display: block;
+  left: 181px;
+}
+
+.media-active {
+  display: block;
+  left: 272px;
+}
+
+.hamburger {
+  display: none;
+
+  margin-left: 15px;
+}

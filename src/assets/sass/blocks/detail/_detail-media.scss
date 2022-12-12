@@ -1,0 +1,9 @@
+@media (max-width: 575px) {
+  .detail {
+    &__logo {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

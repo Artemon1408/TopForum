@@ -1,0 +1,19 @@
+.clients {
+  min-height: 280px;
+  background-color: #f8f3e9;
+  padding: 40px 0 70px 0;
+  &__content {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 180px;
+      height: 120px;
+      background-color: #fff;
+    }
+  }
+}

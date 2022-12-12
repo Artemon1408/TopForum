@@ -1,0 +1,32 @@
+@media (max-width: 575px) {
+  .events {
+    &__item {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &-logo {
+        img {
+          width: 100%;
+        }
+      }
+
+      &-title {
+        text-align: center;
+      }
+      &-subtitle {
+        text-align: center;
+      }
+      &-text {
+        text-align: center;
+      }
+    }
+  }
+
+  .btns {
+    &__events {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+  }
+}

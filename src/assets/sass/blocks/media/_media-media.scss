@@ -1,0 +1,21 @@
+@media (max-width: 991px) {
+  .media {
+    &__items {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .media {
+    &__item {
+      margin: 20px 0;
+      max-width: 310px;
+      &-logo {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

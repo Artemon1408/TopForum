@@ -1,0 +1,37 @@
+.media {
+    min-height: 1150px;
+    &__descr {
+        margin-top: 25px;
+        text-align: center;
+    }
+    &__items {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        margin: 30px 10px;
+        max-width: 360px;
+        &-title {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000;
+            font-weight: 400;
+            font-size: 17px;
+            cursor: pointer;
+            &:hover {
+                color: $main_color1;
+                text-decoration: underline;
+            }
+        }
+        &-text {
+            margin-top: 14px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}

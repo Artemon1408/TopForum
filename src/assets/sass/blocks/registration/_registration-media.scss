@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+  .register {
+    &__subtitle1 {
+      width: 310px;
+      padding: 15px;
+      text-align: center;
+    }
+    &__subtitle2 {
+      width: 310px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    &__form {
+      margin: 0 auto;
+      text-align: center;
+      grid-template-rows: repeat(28, 50px);
+      grid-template-columns: 310px;
+      align-self: center;
+      justify-content: center;
+      &-radio {
+        justify-content: center;
+      }
+      &-buttons {
+        grid-column: 1 / 2;
+      }
+    }
+  }
+}

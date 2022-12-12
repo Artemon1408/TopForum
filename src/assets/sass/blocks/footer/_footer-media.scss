@@ -1,0 +1,17 @@
+@media (max-width: 575px) {
+  .footer {
+    min-height: 50px;
+    padding-top: 10px;
+    &__content {
+      display: none;
+    }
+    &__rights {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &-logo {
+        margin-top: 5px;
+      }
+    }
+  }
+}

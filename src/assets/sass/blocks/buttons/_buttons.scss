@@ -1,0 +1,40 @@
+.btns {
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  &__mc1 {
+    background-color: $main_color1;
+    color: #fff;
+  }
+  &__mc2 {
+    background-color: $main_color2;
+    color: #323232;
+  }
+  &__sub {
+    color: #fff;
+    margin-top: 25px;
+    width: 118px;
+  }
+  &__blck {
+    margin-left: 15px;
+    background-color: #000;
+    color: #fff;
+  }
+  &__register {
+    width: 110px;
+    background-color: $main_color1;
+    color: #fff;
+  }
+  &__events {
+    margin-top: 25px;
+    background-color: $main_color2;
+    color: #fff;
+    width: 120px;
+    font-size: 11px;
+    font-weight: 400;
+  }
+}
